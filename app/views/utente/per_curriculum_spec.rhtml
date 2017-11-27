@@ -1,0 +1,70 @@
+<div class = titolo><%= @titolo = @curriculum.titolo +  " - Periodo didattico: "   +  params[:pd] %></div>
+	
+<%#Tabella orario%>
+<% 	ora_prec=''%>
+<table border=1>
+<col width="10%"><col width="18%"><col width="18%"><col width="18%"><col width="18%"><col width="18%">
+<%#prima riga tabella%>
+	<tr>
+		<th>ORA</th><th>lun</th><th>mar</th><th>mer</th><th>gio</th><th>ven</th>
+	</tr>
+	<% for ora in @ore %>
+			<% #stampa riga vuota per pausa %>
+			<% if (ora.ora_inizio > UtenteController::ORA_PAUSA and ora_prec < UtenteController::ORA_PAUSA) %>
+				<tr><td><%= UtenteController::ORA_PAUSA %></td></tr>
+			<% end %>
+	<tr>
+		<% #stampa una riga per ogni ora di inizio lezioni	%>
+		<td><%= ora.ora_inizio %></td>
+		<% #stampa le colonne corrispondenti al giorno %>
+		<% for giorno in UtenteController::ARR_GIORNI %>
+			<% if  @hsh[giorno][ora.ora_inizio] != {} %>
+				<td>
+					<% #Stampo solo se il corso va visualizzato%>
+					<% if   @hsh[giorno][ora.ora_inizio].corso.visualizzazionecorso == nil or 							(@hsh[giorno][ora.ora_inizio].corso.visualizzazionecorso.per_curriculum != "N" and 														@hsh[giorno][ora.ora_inizio].corso.visualizzazionecorso.per_curriculum != "n") %>
+						<%#scrivo il corso con colori diversi a seconda che sia obbligatorio o no%>
+						<% 	curr_corso = CurriculumCorso.find(:first, :select => "corso_id , obbligatorio",
+						:conditions => ["curriculum = ? and corso_id = ?",params[:id],@hsh[giorno][ora.ora_inizio].corso.id])%>
+						<% if curr_corso.obbligatorio=="S"%>
+							<div class = obbligatorio>
+						<% else %>
+							<div class = non_obbligatorio>
+						<% end %>
+							<%= link_nome_corso(@hsh[giorno][ora.ora_inizio].corso) %>
+						</div>
+						<%= link_nome_aula(@hsh[giorno][ora.ora_inizio].codificaaula) %>
+					<% else %>	
+						&nbsp;
+					<% end %>
+				</td>
+			<% else %>
+				<td> &nbsp;</td>	
+			<% end %>	
+		<% end %>	
+	</tr>
+	<% ora_prec=ora.ora_inizio %>
+<% end %>
+</table>
+
+<br>
+
+<div class = obbligatorio>
+	<b>Corso obbligatorio</b>
+</div>
+<div class = non_obbligatorio>
+	<b>Corso non obbligatorio</b>
+</div>
+<br>
+
+Avvisi:
+<% prec="" %>
+<% for s in @sol_curriculum %>
+	<% if   s.corso.visualizzazionecorso == nil or 				
+	(s.corso.visualizzazionecorso.per_nomecorso != "N" and 		
+	s.corso.visualizzazionecorso.per_nomecorso != "n") %>
+		<% if prec!=s.corso.nome_corso_esteso and s.corso.avvisi!=''%>
+			<br><b><%= s.corso.nome_corso_esteso %></b>: <%= s.corso.avvisi %>
+		<% end %>
+		<% prec=s.corso.nome_corso_esteso %>
+	<% end %>
+<% end %>

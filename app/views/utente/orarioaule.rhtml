@@ -1,0 +1,26 @@
+<%if params[:laboratorio]=='N'%> 
+	<div class = titolo><%= @titolo='Orario occupazione aule'%></div>
+<%else%>
+	<div class = titolo><%= @titolo='Orario occupazione laboratori di '+params[:tipolab]%></div>
+<%end%>
+
+<ul>
+<% for pd in @periodididattici %>
+	<% if pd.id ==1 %>
+    	
+   		<li><%= link_to "fino al "+reversedate(pd.datainizio-1) , :action => 'per_prenotazioni_aule', :datainizio =>'', :datafine => pd.datainizio-1, :laboratorio=> params[:laboratorio], :tipolab=>params[:tipolab]%><br><br>
+   		
+   	<% else %>
+   	
+   		<li><%= link_to "dal "+reversedate(Periododidattico.find(pd.id-1).datafine+1)+" al "+reversedate(pd.datainizio-1), :action => 'per_prenotazioni_aule', :datainizio =>Periododidattico.find(pd.id-1).datafine+1, :datafine => pd.datainizio-1, :laboratorio=> params[:laboratorio], :tipolab=>params[:tipolab]%> <br><br>
+   		
+   	<% end %>
+   	
+   <%	stringa = "dal " + reversedate(pd.datainizio) + " al " +  reversedate(pd.datafine)  + " - "+pd.id.to_s+" PERIODO DIDATTICO" %>
+   <li><%= link_to stringa, :action => 'per_occupazione_aule', :pd => pd.id, :laboratorio=> params[:laboratorio], :tipolab=>params[:tipolab] %><br><br>
+<% end %>
+
+   <li><%= link_to "dal "+reversedate(pd.datafine+1), :action => 'per_prenotazioni_aule' , :datainizio =>pd.datafine+1, :datafine =>'', :laboratorio=> params[:laboratorio], :tipolab=>params[:tipolab]%><br>
+</ul>
+<br><br><br>
+

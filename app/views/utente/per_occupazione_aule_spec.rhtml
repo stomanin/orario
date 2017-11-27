@@ -1,0 +1,64 @@
+<% @titolo = "Occupazione " +@aula.fullname +  " - Periodo didattico: "   +  params[:pd]%>
+<div class = titolo>Occupazione <%= link_nome_aula(@aula) %> - Periodo didattico: <%= params[:pd]%></div>
+
+<%#Nome, capacità, proiettore (S/N), ariacondizionata (S/N) %>
+<%= capacita_aula(@aula) %>
+<%= videoproiettore(@aula) %>
+<%= ariacondizionata(@aula) %> 	
+
+<%#Tabella orario%>
+<% 	ora_prec=''%>
+<table border=1>
+<col width="10%"><col width="18%"><col width="18%"><col width="18%"><col width="18%"><col width="18%">
+<%#prima riga tabella%>
+<tr>
+	<th>ORA</th><th>lun</th><th>mar</th><th>mer</th><th>gio</th><th>ven</th>
+</tr>
+	<% for ora in @ore %>
+		<% #stampa riga vuota per pausa %>
+		<% if (ora.ora_inizio > UtenteController::ORA_PAUSA and ora_prec < UtenteController::ORA_PAUSA) %>
+			<tr><td><%= UtenteController::ORA_PAUSA %></td><tr>
+		<% end %>
+	<tr>
+		<% #stampa una riga per ogni ora di inizio lezioni	%>
+		<td><%= ora.ora_inizio %></td>
+		<% #stampa le colonne corrispondenti al giorno %>
+		<% for giorno in UtenteController::ARR_GIORNI %>
+			<% #se c'è una soluzione, stampa soluz nella tabella, altrimenti stampa cella vuota %>
+			<% if  @hsh[giorno][ora.ora_inizio] != {} %>
+				<td>
+					<%= link_nome_corso(@hsh[giorno][ora.ora_inizio].corso) %>
+				</td>
+			<% else %>
+				<td>
+					<% if @hsh_prenotazioni[giorno][ora.ora_inizio].empty? %>
+						&nbsp;
+					<% else %>
+						<% for p in @hsh_prenotazioni[giorno][ora.ora_inizio] %>
+							<% if p.data >= Date.today %>
+								<%= reversedate(p.data) %>*<br>
+							<% else %>
+								&nbsp;
+							<% end %>
+						<% end %>	
+					<% end %>
+				</td>	
+			<% end %>	
+		<% end %>	
+	</tr>
+	<% ora_prec=ora.ora_inizio %>	
+	<% end %>
+</table>
+<br>
+
+<% #Gestione prenotazioni %>
+<% if @prenotazioni.empty? %>
+	Nessuna prenotazione per quest'aula.
+<% else %>		
+	*Prenotazioni:<br>
+	<% for p in  @prenotazioni %>
+		<% if p.data >= Date.today %>
+			<b><%= reversedate(p.data) %></b>  <%= p.codificaorario.giorno %>  <%= p.codificaorario.ora_inizio %>-<%=ora_fine(p.codificaorario.ora_inizio, p.durata, UtenteController::MINUTI_PER_ORA)%>  <%= p.corso.nome_corso_esteso %><br>
+		<% end %>	
+	<% end %>	
+<% end %>	

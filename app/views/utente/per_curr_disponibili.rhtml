@@ -1,0 +1,54 @@
+<div class = titolo><%= @titolo = "Orari liberi degli studenti del " +params[:anno]+ " anno"+  " - Periodo didattico: "   +  params[:pd]%></div>
+
+
+Curricula:
+<% i=j=0 %>	
+<% 	hsh_colori = Hash.new()  #hash[aula.id] %>
+
+<table>	
+	<% for c in @curricula %>
+		<% i=i+1 %>
+		<% hsh_colori[c.id] = 'colore' + i.to_s %>
+		<tr><td class = <%=hsh_colori[c.id]%> >
+			<b><%= c.cdl %> </b> 
+		</td></tr>
+	<% end %> 
+</table>
+<br>
+<%#Tabella orario%>
+<% 	ora_prec=''%>
+
+<table border=1>
+	<col width="10%"><col width="18%"><col width="18%"><col width="18%"><col width="18%"><col width="18%">
+<%#prima riga tabella%>
+	<tr>
+		<th>ORA</th><th>lun</th><th>mar</th><th>mer</th><th>gio</th><th>ven</th>
+	</tr>
+	<% for ora in @ore %>
+			<% #stampa riga vuota per pausa %>
+			<% if (ora.ora_inizio > UtenteController::ORA_PAUSA and ora_prec < UtenteController::ORA_PAUSA) %>
+				<tr><td><%= UtenteController::ORA_PAUSA %></td><tr>
+			<% end %>
+	<tr>		
+		<% #stampa una riga per ogni ora di inizio lezioni	%>
+		<td><%= ora.ora_inizio %></td>
+		<% #stampa le colonne corrispondenti al giorno %>
+		<% for giorno in UtenteController::ARR_GIORNI %>
+			<% if  @hsh[giorno][ora.ora_inizio] != {} %>
+				<td>		
+					<table border=1  frame=below> 
+					<tr >
+					<%for curr in @hsh[giorno][ora.ora_inizio]%>
+						<td width = 30 height = 20 class= <%=hsh_colori[curr.id]%>></td>
+					<%end%>
+					<tr>
+					</table>			
+				</td>
+			<% else %>
+				<td>&nbsp;</td>	
+			<% end %>	
+		<% end %>	
+	</tr>
+	<% ora_prec=ora.ora_inizio %>
+<% end %>
+</table>

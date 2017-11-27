@@ -1,0 +1,15 @@
+<div class = titolo><%= @titolo = "Calendario delle lezioni"%></div>
+
+<ol style="list-style-type: upper-roman">
+<% for pd in @periodididattici %>
+   <li>PERIODO inizia il <b><%= reversedate(pd.datainizio) %></b> e termina il <b><%= reversedate(pd.datafine) %></b> </li>
+<% end %>
+</ol>
+<br><br>
+<b>Note</b>
+<br>
+<% for pd in @periodididattici %>
+	<% if pd.note != '' %>
+   		<b><%= pd.id %>° periodo didattico</b> <br> <%= pd.note %><br>
+   <% end %>
+<% end %>

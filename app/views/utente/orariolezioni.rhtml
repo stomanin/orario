@@ -1,0 +1,15 @@
+<div class = titolo><%= @titolo = "Orario lezioni"%></div>
+
+<ol>
+<% for periododidattico in @periodididattici %>
+   <li>PERIODO DIDATTICO (dal <b><%= reversedate(periododidattico.datainizio) %></b> al <b><%= reversedate(periododidattico.datafine) %></b>) </li>
+   <ul>
+   		<li><%= link_to 'per nome del corso', 			  		  :action=>'per_nomecorso', 	   :pd => periododidattico.id %></li>
+   		<li><%= link_to 'per Corso di Laurea/Curriculum', 		  :action=>'per_curriculum',  	   :pd => periododidattico.id %></li>
+   		<li><%= link_to 'occupazione aule/prenotazioni', 		  :action=>'per_occupazione_aule', :pd => periododidattico.id, :laboratorio=>'N', :tipolab=>'_' %></li>
+	    <% for lab in @laboratori %>
+        	<li><%= link_to "occupazione laboratori di "+ lab.tipolab,  :action=>'per_occupazione_aule', :pd => periododidattico.id, :laboratorio=>'S', :tipolab=>lab.tipolab  %></li>
+   		<% end %>
+   </ul><br>
+<% end %>
+</ol>

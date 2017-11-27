@@ -1,0 +1,28 @@
+<div class = titolo><%= @titolo = "Visualizzazione per Corso di Laurea/Curriculum"%></div>
+<h3>Periodo Didattico: <%= params[:pd] %></h3>
+<ul>
+	<%anni=['1','2','3','4','5']%>
+	<%for i in anni%>
+	
+		<% case i 
+			 when '1' 
+			 	stringa = "<li>1° ANNO - Laurea Triennale</li>" 
+			 when '2'  
+				stringa = "<li>2° ANNO - Laurea Triennale</li>" 
+			 when '3'  
+				stringa = "<li>3° ANNO - Laurea Triennale</li>" 
+			 when '4'  
+				stringa = "<br><li>1° ANNO - Laurea Specialistica</li>" 
+			 when '5'  
+				stringa = "<li>2° ANNO - Laurea Specialistica</li>" 
+		 end%>
+	
+		<%= stringa %>
+		<% for curr in @curricula %>
+		  <% if curr.anno == i %>
+ 		  	<ul><li><%= link_to curr.titolo, :action=>'per_curriculum_spec', :id => curr.curriculum, :anno => i, :pd => params[:pd] %></li> </ul>
+ 		  <% end %>
+		<% end %><br>
+		<%= link_to "- Orari liberi degli studenti del "+ i +" anno", :action=>'per_curr_disponibili', :anno => i, :pd => params[:pd] %><br><br><br>
+	<% end %>	
+</ul>

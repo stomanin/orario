@@ -1,0 +1,15 @@
+<div class = titolo><%= @titolo = "Orari e aule"%></div>
+
+<p>Dove e quando c'è lezione</p>
+ 
+<ul>
+   <li><%= link_to 'Calendario delle lezioni A.A. 2007/08',                         :action=>"calendario"%></li>
+   <li><%= link_to 'Orario lezioni A.A. 2007/08',                                     :action=>"orariolezioni"%></li>
+   <li><%= link_to "Occupazione aule A.A. 2007/08",  :action=>"orarioaule", :laboratorio=>'N', :tipolab=>"_"%></li>
+   <% for lab in @laboratori %>
+        <li><%= link_to "Occupazione laboratori di "+ lab.tipolab+" A.A. 2007/08",  :action=>"orarioaule", :laboratorio=>'S', :tipolab=>lab.tipolab%></li>
+   <% end %>
+
+ 
+</ul>
+

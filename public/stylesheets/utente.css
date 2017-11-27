@@ -1,0 +1,126 @@
+body {
+	font: 11px  Verdana;
+	background: white;
+}
+
+a {
+	font: Verdana;
+	font-weight: bold;
+	text-decoration: none;
+	color:navy;
+}
+
+table {
+	font: 11px Verdana;
+	text-align: left;
+}
+
+.obbligatorio {color:navy;}
+.obbligatorio a{color:navy;}
+
+.non_obbligatorio {color:teal;}
+.non_obbligatorio  a{color:teal;}
+
+.titolo { 
+	font-size: large;
+	font-decoration: bold;
+	padding-bottom: 20px;
+}
+
+.colore1 {
+	background-color:#33CC66;
+	text-align:center;}
+.colore2 {
+	background-color: #3399CC;
+	text-align:center;}
+.colore3 {
+	background-color:#CC3366;
+	text-align:center;}
+.colore4 {
+	background-color:#FF9966;
+	text-align:center;}
+.colore5 {
+	background-color:#FF99CC;
+	text-align:center;}
+.colore6 {
+	background-color:#99FFCC;  
+	text-align:center;}
+.colore7 {
+	background-color:#99CCCC;
+	text-align:center;}
+.colore8 {
+	background-color: rgb(0,0,255);
+	text-align:center;}
+.colore9 {
+	background-color:rgb(255,0,0);
+	text-align:center;}
+.colore10 {
+	background-color:rgb(0,255,0);
+	text-align:center;}
+.colore11 {
+	background-color: rgb(255,255,0);
+	text-align:center;}
+.colore12 {
+	background-color: rgb(0,255,255);
+	text-align:center;}
+
+.colore1prenotazione {
+	background-color:#33CC66;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore2prenotazione {
+	background-color:#3399CC;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore3prenotazione {
+	background-color:#CC3366;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore4prenotazione {
+	background-color:#FF9966;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore5prenotazione {
+	background-color:#FF99CC;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore6prenotazione {
+	background-color:#99FFCC;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore7prenotazione {
+	background-color:#99CCCC;
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore8prenotazione {
+	background-color:rgb(0,0,255);
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore9prenotazione {
+	background-color:rgb(255,0,0);
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore10prenotazione {
+	background-color:rgb(0,255,0);
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore11prenotazione {
+	background-color:rgb(255,255,0);
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}
+.colore12prenotazione {
+	background-color: rgb(0,255,255);
+	background-image: url('../images/inner.png');
+	background-repeat: repeat-xy;
+	text-align:center;}

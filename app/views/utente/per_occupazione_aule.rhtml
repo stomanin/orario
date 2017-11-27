@@ -1,0 +1,28 @@
+<%if params[:laboratorio]=='N'%> 
+	<div class = titolo><%= @titolo = "Occupazione delle aule / prenotazioni per esami o lezioni singole"%></div>
+<%else%>
+	<div class = titolo><%= @titolo = "Occupazione dei laboratori di "+ params[:tipolab]+" / prenotazioni per esami o lezioni singole"%></div>
+<%end%>
+
+<h3>Periodo Didattico: <%= params[:pd] %></h3>
+<ul>
+		<% for aula in @aule %>
+	 			<%if aula.visualizzazioneaula == nil or (aula.visualizzazioneaula.per_occupazione_aule!='N' and aula.visualizzazioneaula.per_occupazione_aule!='n')%>	
+	 			<li><%= link_to "Occupazione "+aula.fullname, :action=>'per_occupazione_aule_spec', :id => aula.id, :pd => params[:pd], :laboratorio => params[:laboratorio], :tipolab => params[:tipolab] %></li> 
+	 			<% end %>
+		<% end %><br>
+</ul>
+<br>
+
+<%if params[:laboratorio]=='N'%> 
+	<h4>Sintesi disponibilità aule</h4>
+	<ul>
+		<li><%= link_to "Grandi (>100 posti)", :action=>'per_aule_disponibili', :laboratorio => params[:laboratorio], :tipolab => params[:tipolab], :dim => "grande", :pd => params[:pd] %></li>
+		<li><%= link_to "Medie (50-100 posti)", :action=>'per_aule_disponibili', :laboratorio => params[:laboratorio], :tipolab => params[:tipolab], :dim => "medio", :pd => params[:pd] %></li>
+		<li><%= link_to "Piccole (<50 posti)", :action=>'per_aule_disponibili', :laboratorio => params[:laboratorio], :tipolab => params[:tipolab], :dim => "piccolo", :pd => params[:pd] %></li>
+	</ul>
+
+<%else%>
+	<%= link_to "<h4>Sintesi disponibilità laboratori</h4>", :action=>'per_aule_disponibili', :pd => params[:pd], :laboratorio => params[:laboratorio], :tipolab => params[:tipolab] %>
+
+<%end%>

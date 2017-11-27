@@ -1,0 +1,22 @@
+<%if params[:laboratorio]=='N'%> 
+	<div class = titolo><%= @titolo = "Prenotazioni delle aule per esami o lezioni singole"%></div>
+<%else%>
+	<div class = titolo><%= @titolo = "Prenotazioni dei laboratori di "+ params[:tipolab]+" per esami o lezioni singole"%></div>
+<%end%>
+
+<h3>Periodo 
+	<%if params[:datainizio] != nil%> 
+		dal <%=reversedate(params[:datainizio])%>
+	<% end %> 
+	<%if params[:datafine] != nil%> 
+		fino al <%=reversedate(params[:datafine])%>
+	<% end %> 
+</h3>
+<ul>
+		<% for aula in @aule %>
+				 <%if aula.visualizzazioneaula == nil or (aula.visualizzazioneaula.per_occupazione_aule!='N' and aula.visualizzazioneaula.per_occupazione_aule!='n')%>	
+	 		  		<li><%= link_to "Prenotazioni "+aula.fullname, :action=>'per_prenotazioni_aule_spec', :id => aula.id, :datainizio =>params[:datainizio], :datafine =>params[:datafine], :laboratorio => params[:laboratorio], :tipolab => params[:tipolab] %> </li> 
+	 		  	<% end %>	
+		<% end %><br>
+</ul>
+<br>

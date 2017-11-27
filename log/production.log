@@ -1,0 +1,2679 @@
+
+
+Processing UtenteController#orariolab (for 127.0.0.1 at 2007-08-04 13:44:58) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"info", "action"=>"orariolab", "laboratorio"=>"S", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolab
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.01500 (12%) | DB: 0.04700 (37%) | 200 OK [http://localhost/utente/orariolab?laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-04 13:45:02) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/orariolezioni]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-04 13:45:03) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.42200 (2 reqs/sec) | Rendering: 0.10800 (25%) | DB: 0.20500 (48%) | 200 OK [http://localhost/utente/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-04 13:45:08) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.14000 (7 reqs/sec) | Rendering: 0.01500 (10%) | DB: 0.07800 (55%) | 200 OK [http://localhost/utente/per_occupazione_aule?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-04 13:45:10) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.01500 (13%) | DB: 0.06300 (57%) | 200 OK [http://localhost/utente/per_occupazione_aule_spec/1?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:45:14) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.65700 (1 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06300 (9%) | 200 OK [http://localhost/utente/per_aule_disponibili_spec?tipolab=_&pd=1&dim=grande&laboratorio=N]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-04 13:45:25) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.04700 (59%) | 200 OK [http://localhost/utente/per_curriculum?pd=2]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:45:26) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"1", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.53100 (1 reqs/sec) | Rendering: 0.31300 (58%) | DB: 0.20200 (38%) | 200 OK [http://localhost/utente/per_curriculum_spec/ele?pd=2&anno=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:45:39) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"1", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.04800 (12%) | DB: 0.17200 (45%) | 200 OK [http://localhost/utente/per_curriculum_spec/auto?pd=2&anno=1]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:45:47) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+Completed in 0.46900 (2 reqs/sec) | Rendering: 0.01600 (3%) | DB: 0.18700 (39%) | 200 OK [http://localhost/utente/per_curr_disponibili_spec?pd=2&anno=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:45:55) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"2", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.25000 (4 reqs/sec) | Rendering: 0.04700 (18%) | DB: 0.18800 (75%) | 200 OK [http://localhost/utente/per_curriculum_spec/auto?pd=2&anno=2]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:45:59) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"3", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03100 (14%) | DB: 0.18800 (85%) | 200 OK [http://localhost/utente/per_curriculum_spec/ele?pd=2&anno=3]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:21) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.35900 (2 reqs/sec) | Rendering: 0.07900 (22%) | DB: 0.18600 (51%) | 200 OK [http://localhost/utente/per_curriculum_spec/info?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:26) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.03100 (15%) | DB: 0.15600 (76%) | 200 OK [http://localhost/utente/per_curriculum_spec/info?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:29) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.28100 (3 reqs/sec) | Rendering: 0.09400 (33%) | DB: 0.17100 (60%) | 200 OK [http://localhost/utente/per_curriculum_spec/ele?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-04 13:48:33) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:34) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03200 (14%) | DB: 0.17200 (78%) | 200 OK [http://localhost/utente/per_curriculum_spec/info?pd=1&anno=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:38) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"2", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.35900 (2 reqs/sec) | Rendering: 0.20300 (56%) | DB: 0.15600 (43%) | 200 OK [http://localhost/utente/per_curriculum_spec/auto?pd=1&anno=2]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:41) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"3", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.20400 (4 reqs/sec) | Rendering: 0.01600 (7%) | DB: 0.17300 (84%) | 200 OK [http://localhost/utente/per_curriculum_spec/ele?pd=1&anno=3]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:48:45) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"3", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.01600 (6%) | DB: 0.17200 (64%) | 200 OK [http://localhost/utente/per_curr_disponibili_spec?pd=1&anno=3]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:48:54) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"5", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.28100 (3 reqs/sec) | Rendering: 0.04600 (16%) | DB: 0.23500 (83%) | 200 OK [http://localhost/utente/per_curriculum_spec/auto?pd=1&anno=5]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:48:58) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"5", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+Completed in 0.45300 (2 reqs/sec) | Rendering: 0.01500 (3%) | DB: 0.23400 (51%) | 200 OK [http://localhost/utente/per_curr_disponibili_spec?pd=1&anno=5]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-04 13:50:31) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.03200 (29%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_occupazione_aule?laboratorio=N&tipolab=_&pd=2]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-04 13:50:33) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.45300 (2 reqs/sec) | Rendering: 0.03100 (6%) | DB: 0.03200 (7%) | 200 OK [http://localhost/utente/per_occupazione_aule_spec/1?tipolab=_&pd=2&laboratorio=N]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-04 13:50:39) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-04 13:50:39) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.17200 (84%) | DB: 0.03100 (15%) | 200 OK [http://localhost/utente/per_occupazione_aule_spec/1?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-04 13:50:47) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.06200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_curriculum?pd=2]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-04 13:50:48) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"1", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.23500 (4 reqs/sec) | Rendering: 0.04700 (19%) | DB: 0.17300 (73%) | 200 OK [http://localhost/utente/per_curriculum_spec/auto?pd=2&anno=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-04 13:51:22) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/utente/per_occupazione_aule?laboratorio=S&tipolab=info&pd=1]
+
+
+Processing UtenteController#per_lab_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:51:23) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili_spec", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili_spec
+Completed in 1.29700 (0 reqs/sec) | Rendering: 0.03200 (2%) | DB: 0.09500 (7%) | 200 OK [http://localhost/utente/per_lab_disponibili_spec?tipolab=info&pd=1&laboratorio=S]
+
+
+Processing UtenteController#per_lab_disponibili_spec (for 127.0.0.1 at 2007-08-04 13:51:25) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili_spec", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili_spec
+Completed in 0.59400 (1 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.11100 (18%) | 200 OK [http://localhost/utente/per_lab_disponibili_spec?tipolab=info&pd=1&laboratorio=S]
+
+
+Processing UtenteController#orariolab (for 127.0.0.1 at 2007-08-04 13:51:45) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"ele", "action"=>"orariolab", "laboratorio"=>"S", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolab
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.07900 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/orariolab?laboratorio=S&tipolab=ele]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-04 13:51:46) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"ele", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_occupazione_aule?tipolab=ele&pd=2&laboratorio=S]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-04 13:51:47) [GET]
+  Session ID: 1fcad64a677102fb060e0ee9a78564f0
+  Parameters: {"tipolab"=>"ele", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"S", "id"=>"11", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/per_occupazione_aule_spec/11?tipolab=ele&pd=2&laboratorio=S]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-13 19:14:13) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-13 19:14:16) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://localhost/utente/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-13 19:14:24) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.03200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/utente/orariolezioni]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-13 19:18:06) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-13 19:18:08) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-13 19:18:12) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#orariolab (for 127.0.0.1 at 2007-08-13 19:18:16) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"info", "action"=>"orariolab", "laboratorio"=>"S", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolab
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolab?laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-13 19:18:18) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.03100 (11%) | DB: 0.10900 (40%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=S&tipolab=info&pd=2]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-13 19:18:22) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-13 19:18:23) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.54700 (1 reqs/sec) | Rendering: 0.12500 (22%) | DB: 0.29700 (54%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-13 19:19:12) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-13 19:19:14) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-13 19:19:16) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-13 19:19:18) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.04700 (27%) | DB: 0.12500 (72%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-13 19:19:19) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.42200 (2 reqs/sec) | Rendering: 0.06200 (14%) | DB: 0.31300 (74%) | 200 OK [http://localhost/per_curriculum_spec/info?anno=1&pd=1]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-13 19:19:25) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+Completed in 0.39000 (2 reqs/sec) | Rendering: 0.03100 (7%) | DB: 0.21900 (56%) | 200 OK [http://localhost/per_curr_disponibili_spec?anno=1&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-13 19:19:54) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-13 19:19:55) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.26500 (3 reqs/sec) | Rendering: 0.17100 (64%) | DB: 0.07900 (29%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-13 19:19:59) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.76600 (1 reqs/sec) | Rendering: 0.06300 (8%) | DB: 0.09400 (12%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#utente (for 127.0.0.1 at 2007-08-14 10:13:39) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"utente", "id"=>"orariolezioni", "controller"=>"utente"}
+
+
+ActionController::UnknownAction (No action responded to utente):
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-14 10:13:46) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.31300 (3 reqs/sec) | Rendering: 0.03200 (10%) | DB: 0.04600 (14%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-14 10:13:54) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.04700 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-14 10:13:59) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-14 10:14:03) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-14 11:04:14) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.03100 (16%) | DB: 0.12500 (66%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-14 11:04:15) [GET]
+  Session ID: e8b880f3468a4394dc858fefaf721be6
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.34300 (2 reqs/sec) | Rendering: 0.04700 (13%) | DB: 0.24900 (72%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-16 17:35:04) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-16 17:35:08) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.03200 (12%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#utente (for 127.0.0.1 at 2007-08-16 18:05:58) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"utente", "controller"=>"utente"}
+
+
+ActionController::UnknownAction (No action responded to utente):
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-16 18:06:02) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-16 18:06:03) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-16 18:06:05) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.50000 (2 reqs/sec) | Rendering: 0.18800 (37%) | DB: 0.20300 (40%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-16 18:17:21) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.04700 (49%) | DB: 0.03200 (34%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-16 18:23:33) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.04600 (74%) | DB: 0.01600 (25%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-16 21:06:32) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.04700 (75%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-16 21:06:34) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.82800 (1 reqs/sec) | Rendering: 0.28200 (34%) | DB: 0.53100 (64%) | 200 OK [http://localhost/per_curriculum_spec/auto?anno=1&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-16 21:30:44) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06200 (100%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-16 21:30:46) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.56300 (1 reqs/sec) | Rendering: 0.07800 (13%) | DB: 0.28200 (50%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-16 21:56:18) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.04700 (75%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-16 21:56:20) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.39100 (0 reqs/sec) | Rendering: 0.12500 (8%) | DB: 0.11100 (7%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#utente (for 127.0.0.1 at 2007-08-17 11:00:44) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"utente", "id"=>"orariolezioni", "controller"=>"utente"}
+
+
+ActionController::UnknownAction (No action responded to utente):
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-17 11:00:47) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-17 11:00:49) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.42100 (2 reqs/sec) | Rendering: 0.10900 (25%) | DB: 0.04700 (11%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 11:00:50) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.03100 (28%) | DB: 0.07800 (71%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 11:00:53) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03200 (14%) | DB: 0.17200 (78%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 11:00:54) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.98400 (1 reqs/sec) | Rendering: 0.03100 (3%) | DB: 0.34500 (35%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 11:19:25) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.06200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=S&tipolab=info&pd=1]
+
+
+Processing UtenteController#per_lab_disponibili_spec (for 127.0.0.1 at 2007-08-17 11:19:30) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili_spec", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili_spec
+Completed in 1.06300 (0 reqs/sec) | Rendering: 0.04700 (4%) | DB: 0.14200 (13%) | 200 OK [http://localhost/per_lab_disponibili_spec?laboratorio=S&tipolab=info&pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 11:30:30) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-17 11:30:32) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+Completed in 0.57800 (1 reqs/sec) | Rendering: 0.03100 (5%) | DB: 0.31300 (54%) | 200 OK [http://localhost/per_curr_disponibili_spec?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 16:37:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.07800 (82%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 16:39:16) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"8"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=8]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-17 16:39:23) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"1", "pd"=>"8"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.03200 (17%) | DB: 0.15600 (82%) | 200 OK [http://localhost/per_curriculum_spec/ele?anno=1&pd=8]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 17:29:05) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.09300 (10 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.09300 (100%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:29:08) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.40600 (0 reqs/sec) | Rendering: 0.01600 (1%) | DB: 0.23400 (16%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:29:44) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.48400 (2 reqs/sec) | Rendering: 0.01500 (3%) | DB: 0.07800 (16%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:29:45) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.45300 (0 reqs/sec) | Rendering: 0.01600 (1%) | DB: 0.11000 (7%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:29:58) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.53100 (0 reqs/sec) | Rendering: 0.01500 (0%) | DB: 0.15400 (10%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:31:11) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.03100 (0 reqs/sec) | Rendering: 0.15600 (15%) | DB: 0.17200 (16%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:31:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.46800 (2 reqs/sec) | Rendering: 0.01500 (3%) | DB: 0.09300 (19%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:31:37) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 1.23500 (0 reqs/sec) | Rendering: 0.01600 (1%) | DB: 0.15800 (12%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:32:00) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.98400 (1 reqs/sec) | Rendering: 0.01500 (1%) | DB: 0.04800 (4%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:32:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili_spec", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili_spec
+Completed in 0.95300 (1 reqs/sec) | Rendering: 0.06300 (6%) | DB: 0.11000 (11%) | 200 OK [http://localhost/per_aule_disponibili_spec?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:32:45) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"5", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.23500 (62%) | DB: 0.10900 (29%) | 200 OK [http://localhost/per_occupazione_aule_spec/5?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:32:48) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.03100 (28%) | DB: 0.03100 (28%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:42:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.01600 (25%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:42:34) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:43:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:43:33) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.01500 (19%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:43:39) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:11) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.03200 (40%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:23) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04600 (58%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:25) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.09400 (50%) | DB: 0.04700 (24%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:31) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.70300 (1 reqs/sec) | Rendering: 0.37500 (53%) | DB: 0.01500 (2%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:40) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.03200 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:44:46) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 17:45:03) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.01500 (24%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 17:49:32) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.03200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:49:33) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+
+
+ActionView::TemplateError (No such file or directory - C:/INSTAN~1/rails_apps/orario/config/../app/views/utente/per_curr_disponibili_spec.rhtml) in app/views/utente/per_curr_disponibili_spec.rhtml:
+
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `mtime'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `compile_template?'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:317:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:50:19) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+
+
+ActionView::TemplateError (No such file or directory - C:/INSTAN~1/rails_apps/orario/config/../app/views/utente/per_curr_disponibili_spec.rhtml) in app/views/utente/per_curr_disponibili_spec.rhtml:
+
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `mtime'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `compile_template?'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:317:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_curr_disponibili_spec (for 127.0.0.1 at 2007-08-17 17:50:26) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili_spec", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili_spec
+
+
+ActionView::TemplateError (No such file or directory - C:/INSTAN~1/rails_apps/orario/config/../app/views/utente/per_curr_disponibili_spec.rhtml) in app/views/utente/per_curr_disponibili_spec.rhtml:
+
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `mtime'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:440:in `compile_template?'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:317:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 17:50:34) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-17 17:50:35) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+
+
+ActionView::TemplateError (undefined method `each' for nil:NilClass) on line #9 of app/views/utente/per_curr_disponibili.rhtml:
+6: <% 	hsh_colori = Hash.new()  #hash[aula.id] %>
+7: 
+8: <table>	
+9: 	<% for c in @curricula %>
+10: 		<% i=i+1 %>
+11: 		<% hsh_colori[c.id] = 'colore' + i.to_s %>
+12: 		<tr><td class = <%=hsh_colori[c.id]%> >
+
+    #{RAILS_ROOT}/app/views/utente/per_curr_disponibili.rhtml:9:in `_run_rhtml_47app47views47utente47per_curr_disponibili46rhtml'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-17 17:52:08) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.03200 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-17 17:52:10) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.46800 (2 reqs/sec) | Rendering: 0.01600 (3%) | DB: 0.01500 (3%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 17:52:11) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.01500 (48%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-17 17:52:12) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+Completed in 0.40700 (2 reqs/sec) | Rendering: 0.01600 (3%) | DB: 0.18800 (46%) | 200 OK [http://localhost/per_curr_disponibili?anno=1&pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-17 17:52:19) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"2", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+Completed in 0.34400 (2 reqs/sec) | Rendering: 0.01600 (4%) | DB: 0.18800 (54%) | 200 OK [http://localhost/per_curr_disponibili?anno=2&pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-17 17:52:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"3", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+Completed in 0.43700 (2 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.35900 (82%) | 200 OK [http://localhost/per_curr_disponibili?anno=3&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 17:52:28) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (9%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-17 17:52:30) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 0.64100 (1 reqs/sec) | Rendering: 0.03200 (4%) | DB: 0.17200 (26%) | 200 OK [http://localhost/per_aule_disponibili?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-17 17:52:34) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"medio", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 0.85900 (1 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.07900 (9%) | 200 OK [http://localhost/per_aule_disponibili?dim=medio&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 17:52:45) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=S&tipolab=info&pd=2]
+
+
+Processing UtenteController#per_lab_disponibili (for 127.0.0.1 at 2007-08-17 17:52:46) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"2"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili
+Completed in 1.31200 (0 reqs/sec) | Rendering: 0.03100 (2%) | DB: 0.12200 (9%) | 200 OK [http://localhost/per_lab_disponibili?laboratorio=S&tipolab=info&pd=2]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 17:59:20) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 17:59:56) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 18:00:12) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 18:00:38) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 18:00:49) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 18:02:40) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+
+
+ActionView::TemplateError (undefined method `reversedate' for #<#<Class:0x47fe2f8>:0x470af90>) on line #5 of app/views/utente/calendario.rhtml:
+2: 
+3: <ol style="list-style-type: upper-roman">
+4: <% for pd in @periodididattici %>
+5:    <li>TRIMESTRE inizia il <b><%= reversedate(pd.datainizio) %></b> e termina il <b><%= reversedate(pd.datafine) %></b> </li>
+6: <% end %>
+7: </ol>
+8: 
+
+    #{RAILS_ROOT}/app/views/utente/calendario.rhtml:5:in `_run_rhtml_47app47views47utente47calendario46rhtml'
+    #{RAILS_ROOT}/app/views/utente/calendario.rhtml:4:in `each'
+    #{RAILS_ROOT}/app/views/utente/calendario.rhtml:4:in `_run_rhtml_47app47views47utente47calendario46rhtml'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-17 18:03:51) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.00000 (0%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-17 18:04:01) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-17 18:05:19) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-17 18:05:22) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-17 18:05:24) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.42200 (2 reqs/sec) | Rendering: 0.20300 (48%) | DB: 0.06300 (14%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-17 18:05:38) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-17 18:05:44) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.28100 (3 reqs/sec) | Rendering: 0.06200 (22%) | DB: 0.18800 (66%) | 200 OK [http://localhost/per_curriculum_spec/auto?anno=1&pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-17 18:05:53) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+Completed in 0.60900 (1 reqs/sec) | Rendering: 0.01500 (2%) | DB: 0.35900 (58%) | 200 OK [http://localhost/per_curr_disponibili?anno=1&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 18:05:59) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:06:01) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.04700 (49%) | DB: 0.03100 (32%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:06:37) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:06:56) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:07:25) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+
+
+ActionView::TemplateError (can't convert Range into Integer) on line #40 of app/views/utente/per_occupazione_aule_spec.rhtml:
+37: 						&nbsp;
+38: 						<% if @hsh_prenotazioni[giorno][ora.ora_inizio] != {} %>
+39: 							<% for p in @hsh_prenotazioni[giorno][ora.ora_inizio] %>
+40: 								<br>* <%= reversedate(p)[0..1,3..10] %>
+41: 							<% end %>
+42: 						<% end %>
+43: 					</td>	
+
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:40:in `[]'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:40:in `_run_rhtml_47app47views47utente47per_occupazione_aule_spec46rhtml'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:39:in `each'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:39:in `_run_rhtml_47app47views47utente47per_occupazione_aule_spec46rhtml'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:29:in `each'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:29:in `_run_rhtml_47app47views47utente47per_occupazione_aule_spec46rhtml'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:20:in `each'
+    #{RAILS_ROOT}/app/views/utente/per_occupazione_aule_spec.rhtml:20:in `_run_rhtml_47app47views47utente47per_occupazione_aule_spec46rhtml'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:326:in `compile_and_render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:07:39) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.03200 (40%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:08:01) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.03100 (39%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:08:16) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.03200 (41%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:08:29) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03200 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:08:49) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.01500 (19%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:09:33) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:09:41) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.04600 (48%) | DB: 0.04800 (51%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 18:09:46) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-17 18:09:47) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 1.23500 (0 reqs/sec) | Rendering: 0.01600 (1%) | DB: 0.07800 (6%) | 200 OK [http://localhost/per_aule_disponibili?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 18:09:55) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:09:56) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:10:21) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.03100 (16%) | DB: 0.07800 (41%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:11:26) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:11:35) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.01500 (24%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:11:50) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03100 (14%) | DB: 0.03100 (14%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:12:39) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01500 (19%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:13:26) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:13:54) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06200 (49%) | DB: 0.03100 (24%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:14:19) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:14:29) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.03100 (39%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:14:55) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03200 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:15:26) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.03200 (40%) | DB: 0.01600 (20%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:16:38) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01500 (23%) | DB: 0.03200 (50%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:16:49) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:17:25) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03200 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-17 18:19:51) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-17 18:19:54) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 1.10900 (0 reqs/sec) | Rendering: 0.01500 (1%) | DB: 0.13900 (12%) | 200 OK [http://localhost/per_aule_disponibili?dim=grande&laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-17 18:20:23) [GET]
+  Session ID: 5d809cbdc715f0e942bf9103994fcd7a
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.01600 (25%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?laboratorio=N&tipolab=_&pd=1]
+
+
+Processing UtenteController#utente (for 127.0.0.1 at 2007-08-19 21:16:09) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"utente", "id"=>"orariolezioni", "controller"=>"utente"}
+
+
+ActionController::UnknownAction (No action responded to utente):
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-19 21:16:09) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.04700 (17%) | DB: 0.03100 (11%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-19 21:16:13) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.04700 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-20 11:22:40) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-20 11:22:47) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.39000 (2 reqs/sec) | Rendering: 0.03100 (7%) | DB: 0.03100 (7%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-20 11:22:49) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.25000 (4 reqs/sec) | Rendering: 0.01600 (6%) | DB: 0.18800 (75%) | 200 OK [http://localhost/per_occupazione_aule?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:22:50) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.35900 (2 reqs/sec) | Rendering: 0.07800 (21%) | DB: 0.23400 (65%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-20 11:23:09) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 0.57800 (1 reqs/sec) | Rendering: 0.01500 (2%) | DB: 0.11000 (19%) | 200 OK [http://localhost/per_aule_disponibili?pd=1&laboratorio=N&dim=grande&tipolab=_]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:25:37) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.29600 (3 reqs/sec) | Rendering: 0.09300 (31%) | DB: 0.12500 (42%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:25:56) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.57800 (1 reqs/sec) | Rendering: 0.31300 (54%) | DB: 0.09400 (16%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:26:24) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.36000 (2 reqs/sec) | Rendering: 0.09500 (26%) | DB: 0.04600 (12%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:26:28) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.09400 (49%) | DB: 0.04700 (24%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:26:29) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.53100 (1 reqs/sec) | Rendering: 0.37500 (70%) | DB: 0.07900 (14%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:27:34) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.54600 (1 reqs/sec) | Rendering: 0.23300 (42%) | DB: 0.06300 (11%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:28:44) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.06300 (33%) | DB: 0.06200 (32%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:29:02) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.23600 (62%) | DB: 0.03000 (7%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:29:09) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.84300 (1 reqs/sec) | Rendering: 0.26600 (31%) | DB: 0.03100 (3%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:29:16) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.06100 (32%) | DB: 0.04800 (25%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:29:31) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.07700 (41%) | DB: 0.03100 (16%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:29:44) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 1.03100 (0 reqs/sec) | Rendering: 0.46800 (45%) | DB: 0.09300 (9%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-20 11:30:28) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.09400 (46%) | DB: 0.01600 (7%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-20 11:32:04) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.03200 (22%) | DB: 0.09300 (65%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:32:04) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"auto", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.34400 (2 reqs/sec) | Rendering: 0.04600 (13%) | DB: 0.28200 (81%) | 200 OK [http://localhost/per_curriculum_spec/auto?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:32:14) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"3", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.28100 (3 reqs/sec) | Rendering: 0.03200 (11%) | DB: 0.23300 (82%) | 200 OK [http://localhost/per_curriculum_spec/info?anno=3&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:32:35) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.35900 (2 reqs/sec) | Rendering: 0.14200 (39%) | DB: 0.20100 (55%) | 200 OK [http://localhost/per_curriculum_spec/info?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:33:20) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.82800 (1 reqs/sec) | Rendering: 0.54800 (66%) | DB: 0.17200 (20%) | 200 OK [http://localhost/per_curriculum_spec/info?anno=1&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:33:32) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"4", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.40700 (2 reqs/sec) | Rendering: 0.03100 (7%) | DB: 0.21900 (53%) | 200 OK [http://localhost/per_curriculum_spec/ele?anno=4&pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-20 11:33:35) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"info", "controller"=>"utente", "anno"=>"4", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03100 (14%) | DB: 0.17200 (78%) | 200 OK [http://localhost/per_curriculum_spec/info?anno=4&pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-20 11:35:34) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:35:35) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.01600 (25%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:35:51) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:37:22) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"1", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (34%) | 200 OK [http://localhost/per_occupazione_aule_spec/1?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:37:25) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"N", "id"=>"2", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/2?pd=1&laboratorio=N&tipolab=_]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-20 11:38:31) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"medio", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 1.06300 (0 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.11000 (10%) | 200 OK [http://localhost/per_aule_disponibili?pd=1&laboratorio=N&dim=medio&tipolab=_]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-20 11:38:36) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_aule_disponibili
+Completed in 1.17200 (0 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06400 (5%) | 200 OK [http://localhost/per_aule_disponibili?pd=1&laboratorio=N&dim=grande&tipolab=_]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-20 11:38:41) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?pd=1&laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#per_lab_disponibili (for 127.0.0.1 at 2007-08-20 11:38:42) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili
+Completed in 0.42200 (2 reqs/sec) | Rendering: 0.01500 (3%) | DB: 0.01600 (3%) | 200 OK [http://localhost/per_lab_disponibili?pd=1&laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#per_occupazione_aule_spec (for 127.0.0.1 at 2007-08-20 11:38:46) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule_spec", "laboratorio"=>"S", "id"=>"7", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule_spec
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule_spec/7?pd=1&laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#per_lab_disponibili (for 127.0.0.1 at 2007-08-20 11:39:06) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_lab_disponibili
+Completed in 1.20300 (0 reqs/sec) | Rendering: 0.01600 (1%) | DB: 0.12500 (10%) | 200 OK [http://localhost/per_lab_disponibili?pd=1&laboratorio=S&tipolab=info]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-20 11:40:05) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-20 11:40:06) [GET]
+  Session ID: 8fad5b678f03881f640fa0784e3a6968
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curr_disponibili
+Completed in 0.29700 (3 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.14100 (47%) | 200 OK [http://localhost/per_curr_disponibili?anno=1&pd=1]
+
+
+Processing UtenteController#index (for 127.0.0.1 at 2007-08-26 18:20:58) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"index", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | 200 OK [http://localhost/]
+
+
+Processing UtenteController#calendario (for 127.0.0.1 at 2007-08-26 18:21:21) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"calendario", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/calendario
+Completed in 0.36000 (2 reqs/sec) | Rendering: 0.01600 (4%) | DB: 0.12500 (34%) | 200 OK [http://localhost/calendario]
+
+
+Processing UtenteController#orariolezioni (for 127.0.0.1 at 2007-08-26 18:21:26) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"orariolezioni", "controller"=>"utente"}
+Rendering  within layouts/utente
+Rendering utente/orariolezioni
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/orariolezioni]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-26 18:21:34) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.61000 (1 reqs/sec) | Rendering: 0.15700 (25%) | DB: 0.35800 (58%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:21:49) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.17100 (5 reqs/sec) | Rendering: 0.03100 (18%) | DB: 0.12500 (73%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=info&pd=1&laboratorio=S]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:21:53) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-26 18:28:45) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.40600 (2 reqs/sec) | Rendering: 0.28100 (69%) | DB: 0.06300 (15%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:34:15) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=info&pd=1&laboratorio=S]
+
+
+Processing UtenteController#per_lab_disponibili (for 127.0.0.1 at 2007-08-26 18:39:45) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"info", "action"=>"per_lab_disponibili", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:259:in `per_lab_disponibili'
+    /app/controllers/utente_controller.rb:258:in `each'
+    /app/controllers/utente_controller.rb:258:in `per_lab_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_nomecorso (for 127.0.0.1 at 2007-08-26 18:39:59) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_nomecorso", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_nomecorso
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.06200 (33%) | DB: 0.03100 (16%) | 200 OK [http://localhost/per_nomecorso?pd=1]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-26 18:40:01) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.01500 (11%) | DB: 0.09400 (75%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:40:03) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:40:05) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"info", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=info&pd=1&laboratorio=S]
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:40:07) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"ele", "action"=>"per_occupazione_aule", "laboratorio"=>"S", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.06200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=ele&pd=1&laboratorio=S]
+
+
+Processing UtenteController#per_curriculum (for 127.0.0.1 at 2007-08-26 18:40:10) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_curriculum", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_curriculum?pd=1]
+
+
+Processing UtenteController#per_curriculum_spec (for 127.0.0.1 at 2007-08-26 18:40:11) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_curriculum_spec", "id"=>"ele", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_curriculum_spec
+Completed in 0.82800 (1 reqs/sec) | Rendering: 0.56300 (67%) | DB: 0.21800 (26%) | 200 OK [http://localhost/per_curriculum_spec/ele?pd=1&anno=1]
+
+
+Processing UtenteController#per_curr_disponibili (for 127.0.0.1 at 2007-08-26 18:40:18) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"action"=>"per_curr_disponibili", "controller"=>"utente", "anno"=>"1", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:288:in `per_curr_disponibili'
+    /app/controllers/utente_controller.rb:287:in `each'
+    /app/controllers/utente_controller.rb:287:in `per_curr_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_occupazione_aule (for 127.0.0.1 at 2007-08-26 18:40:32) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_occupazione_aule", "laboratorio"=>"N", "controller"=>"utente", "pd"=>"1"}
+Rendering  within layouts/utente
+Rendering utente/per_occupazione_aule
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/per_occupazione_aule?tipolab=_&pd=1&laboratorio=N]
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-26 18:40:33) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"medio", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:226:in `per_aule_disponibili'
+    /app/controllers/utente_controller.rb:225:in `each'
+    /app/controllers/utente_controller.rb:225:in `per_aule_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-26 18:41:58) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"medio", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:226:in `per_aule_disponibili'
+    /app/controllers/utente_controller.rb:225:in `each'
+    /app/controllers/utente_controller.rb:225:in `per_aule_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-26 18:42:00) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:226:in `per_aule_disponibili'
+    /app/controllers/utente_controller.rb:225:in `each'
+    /app/controllers/utente_controller.rb:225:in `per_aule_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-26 18:42:58) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:226:in `per_aule_disponibili'
+    /app/controllers/utente_controller.rb:225:in `each'
+    /app/controllers/utente_controller.rb:225:in `per_aule_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UtenteController#per_aule_disponibili (for 127.0.0.1 at 2007-08-26 18:43:01) [GET]
+  Session ID: 5d2426f331e871f7f70fc0c51973b89b
+  Parameters: {"tipolab"=>"_", "action"=>"per_aule_disponibili", "laboratorio"=>"N", "controller"=>"utente", "dim"=>"grande", "pd"=>"1"}
+
+
+NoMethodError (undefined method `each' for nil:NilClass):
+    /app/controllers/utente_controller.rb:226:in `per_aule_disponibili'
+    /app/controllers/utente_controller.rb:225:in `each'
+    /app/controllers/utente_controller.rb:225:in `per_aule_disponibili'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:78:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `synchronize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/rails.rb:76:in `process'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:618:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:617:in `process_client'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:736:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `initialize'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `new'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel.rb:720:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:271:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `each'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/configurator.rb:270:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:127:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/lib/mongrel/command.rb:211:in `run'
+    C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/mongrel-1.0.1-mswin32/bin/mongrel_rails:243
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16:in `load'
+    C:/INSTAN~1/ruby/bin/mongrel_rails:16
+
+
+Rendering C:/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)

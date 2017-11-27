@@ -1,0 +1,116 @@
+
+Cosa è stato modificato:
+/etc/httpd/conf/httpd.conf -> decommentata la riga con AddHandler .cgi 
+(il file originale è /etc/httpd/conf/httpd.conf.BACKUP )
+create le directory: /home/www/orario e /usr/orario
+
+
+~~~~~~~~~~~~~~~~~~~~        27 Luglio 2007       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- rimosse directory /home/www/orario e /usr/orario
+- creata directory /home/rails/orario in cui e stata messa lapplicazione 
+
+- installazione di ruby
+	$yum install ruby ruby-libs ruby-devel irb rdoc ri
+
+- installazione di rubygems
+	$wget http://rubyforge.org/frs/download.php/17190/rubygems-0.9.2.tgz
+	$tar xzvf rubygems-0.9.2.tgz
+	$cd rubygems-0.9.2
+	$ruby setup.rb
+
+Messaggio!!!!!! (nessun problema apparente)
+As of RubyGems 0.8.0, library stubs are no longer needed.
+Searching $LOAD_PATH for stubs to optionally delete (may take a while)...
+...done.
+No library stubs found.
+
+	$gem update --system
+
+- rimuovo i file scaricati
+	$cd ..
+	$rm ruby* -drf 
+
+-installo rails
+	$gem install rails --include-dependencies
+
+- configurazione apache
+creo un link all-applicazione da /home/www/informazione/rails
+	$ln -s /home/rails/orario/public/ /home/www/informazione/rails/orario/
+
+creo copia di backup di httpd.conf -> httpd.conf.BACKUP27072007
+inserisco nel file di configurazione di apache (/etc/httpd/conf/httpd.conf)
+
+	# Include the virtual host configurations:
+	<Directory "/home/www/informazione/rails/orario/">
+	        Options FollowSymLinks ExecCGI -Indexes
+        	AllowOverride All
+	</Directory>
+commento riga con AddHandler .cgi in httpd.conf
+
+
+- riavvio apache
+	$service httpd restart
+
+- cambio user e group della cartella(root,root -> apache apache)
+/home/rails/orario/
+comprese sottocartelle e contenuto
+
+
+- cambio user e group dei file (root,root -> apache apache)
+/home/rails/orario/log/development.log
+/home/rails/orario/log/production.log
+/home/rails/orario/log/server.log
+/home/rails/orario/log/test.log
+
+- installo mysql
+	$yum -y install mysql mysql-server  
+
+-configuro il servizio affinche si avvii automaticamente e avvio il servizio stesso
+ 	$/sbin/chkconfig mysqld on
+ 	$/sbin/service mysqld start
+
+- setto la password per mysql
+
+mysqladmin -u root password 'test123'
+
+- caricato sul server db orario_development
+
+NB Applicazione
+Controllare sempre i file seguenti in modo che contengano le impostazioni riportate di seguito
+
+/home/rails/orario/config/boot.rb
+RUBY_PLATFORM =~ /(:?mswin|mingw)/
+    require 'pathname'
+     root_path = Pathname.new(root_path).cleanpath(true).realpath().to_s
+  end
+
+/home/rails/orario/config/database.yml
+(per development, test e production)
+  adapter: mysql
+  socket: /var/lib/mysql/mysql.sock  (su kubuntu era /var/run/mysqld/mysqld.sock)
+  database: orario_development
+  username: root
+  password: C1b3rCop
+  host: localhost
+
+/home/rails/orario/config/environment.rb
+ENV['RAILS_ENV'] ||= 'development'
+
+/home/rails/orario/public/.htaccess
+RewriteEngine on
+RewriteBase /informazione/rails/orario/
+
+
+/home/rails/orario/public/dispatch.cgi dispatch.fcgi dispatch.rb 
+e in tutti gli script contenuti in 
+/home/rails/orario/script/ (soprattutto breakpointer, console, generate, server) inserire la giusta path per ruby, in questo caso
+
+#!/usr/bin/ruby
+
+
+DIRITTI, USER, GROUP
+su tutta la cartella /home/rails/orario
+user apache (chown -R apache orario)
+group apache (chgrp -R apache orario)
+diritti vedi http://6brand.com/application-error-rails-app-failed-to-start-properly
+(cmq dare diritti di scrittura sui log nella cartella /home/rails/orario/log)

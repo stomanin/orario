@@ -1,0 +1,76 @@
+<% if params[:laboratorio]=='S' or params[:laboratorio]=='s'%>
+	<div class = titolo><%= @titolo = "Laboratori disponibili" +  " - Periodo didattico: "   +  params[:pd]%></div>
+	Laboratorio disponibile:
+<%else%>
+	<div class = titolo><%= @titolo = "Aule disponibili" +  " - Periodo didattico: "   +  params[:pd]%></div>
+	Aule disponibili:
+<% end %> 
+<% i=j=0 %>	
+<% 	hsh_colori = Hash.new()  #hash[aula.id] %>
+
+<table>	
+	<% for aula in @aule %>
+		 <%if aula.visualizzazioneaula == nil or (aula.visualizzazioneaula.per_aule_disponibili!='N' and aula.visualizzazioneaula.per_aule_disponibili!='n')%>	
+			<% i=i+1 %>
+			<% hsh_colori[aula.id] = 'colore' + i.to_s %>
+			<tr><td class = <%=hsh_colori[aula.id]%> >
+				<b><%= link_to aula.fullname, :action=>'per_occupazione_aule_spec', :id => aula.id, :pd => params[:pd], :laboratorio => params[:laboratorio], :tipolab => params[:tipolab] %> </b> (<b><%= aula.capacita %></b> posti)
+			</td></tr>
+		<% end %> 
+	<% end %> 
+</table>
+<br>
+<%#Tabella orario%>
+<% 	ora_prec=''%>
+<table border=1>
+<%#prima riga tabella%>
+	<tr>
+		<th>ORA</th><th>lun</th><th>mar</th><th>mer</th><th>gio</th><th>ven</th>
+	</tr>
+	<% for ora in @ore %>
+			<% #stampa riga vuota per pausa %>
+			<% if (ora.ora_inizio > UtenteController::ORA_PAUSA and ora_prec < UtenteController::ORA_PAUSA) %>
+				<tr><td><%= UtenteController::ORA_PAUSA %></td><tr>
+			<% end %>
+	<tr>		
+		<% #stampa una riga per ogni ora di inizio lezioni	%>
+		<td><%= ora.ora_inizio %></td>
+		<% #stampa le colonne corrispondenti al giorno %>
+		<% for giorno in UtenteController::ARR_GIORNI %>
+			<% if  @hsh[giorno][ora.ora_inizio] != {} %>
+				<td>		
+					<table  border=1 bordercolor="white" frame=below> 
+					<tr>
+					<%for aula_disp in @hsh[giorno][ora.ora_inizio]%>
+		 				<%if aula_disp.visualizzazioneaula == nil or (aula_disp.visualizzazioneaula.per_aule_disponibili!='N' and aula_disp.visualizzazioneaula.per_aule_disponibili!='n')%>	
+							<% if params[:laboratorio]=='S' or params[:laboratorio]=='s'%>
+								<%stringa1 = ''%>
+								<%stringa2 = "*"%>
+							<%else%>
+								<%stringa1 = aula_disp.aula%>
+								<%stringa2 = aula_disp.aula+"*"%>
+							<% end %> 					
+							<%if @hsh_prenotazioni[giorno][ora.ora_inizio].include?(aula_disp)%>
+								<td width = 30 height = 20 class= <%=hsh_colori[aula_disp.id]%>><%=stringa1%></td>
+							<%else%>
+								<td width = 30 height = 20 class= <%=hsh_colori[aula_disp.id]+"prenotazione"%>><%= link_to stringa2, :action=>'per_occupazione_aule_spec', :id => aula_disp.id, :pd => params[:pd], :laboratorio => params[:laboratorio], :tipolab => params[:tipolab] %></td>
+							<%end%>
+						<%end%>
+					<%end%>
+					<tr>
+					</table>			
+				</td>
+			<% else %>
+				<td>&nbsp;</td>	
+			<% end %>	
+		<% end %>	
+	</tr>
+	<% ora_prec=ora.ora_inizio %>
+<% end %>
+</table>
+<br>
+<% if params[:laboratorio]=='S' or params[:laboratorio]=='s'%>
+	(*) Le celle tratteggiate corrispondono ai laboratori con delle prenotazioni.
+<%else%>
+	(*) Le celle tratteggiate corrispondono alle aule con delle prenotazioni.
+<% end %> 

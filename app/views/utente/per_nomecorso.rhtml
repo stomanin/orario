@@ -1,0 +1,53 @@
+<div class = titolo><%= @titolo = "Visualizzazione per nome del corso"%></div>
+<h3>Periodo Didattico: <%= params[:pd] %></h3>
+<table>
+<col width="12%">
+<% prec="" %>
+<% for soluzione in @soluzioni %>
+		<% if   soluzione.corso.visualizzazionecorso == nil or 				
+		(soluzione.corso.visualizzazionecorso.per_nomecorso != "N" and 		
+		soluzione.corso.visualizzazionecorso.per_nomecorso != "n") %>
+		<% #Se la soluzione precedente ha lo stesso nome del corso%>
+		<% if prec==soluzione.corso.nome_corso_esteso %>
+					<% #Scrivo su stessa riga%>
+					<% #giorno, ora inizio, ora fine, aula%>
+  					<td>
+  						<%= soluzione.codificaorario.giorno %>	
+  						<%= soluzione.codificaorario.ora_inizio %>-<%= ora_fine(soluzione.codificaorario.ora_inizio, soluzione.durata, UtenteController::MINUTI_PER_ORA) %><br>
+  						<%= link_nome_aula(soluzione.codificaaula) %>
+					</td>
+		<% else %><% #Altrimenti creo nuova riga in cui stampo anche il nome del corso%>
+				<tr  HEIGHT=40>  		
+  					<% #nomecorso %>
+  					<td><%= link_nome_corso(soluzione.corso) %>
+  						<%if soluzione.corso.avvisi!=''%>
+  						*
+  						<% end %>
+  					</td>		
+
+					<% #giorno, ora inizio, ora fine, aula%>
+ 	 				<td>
+  						<%= soluzione.codificaorario.giorno %>	
+  						<%= soluzione.codificaorario.ora_inizio %>-
+  						<%= ora_fine(soluzione.codificaorario.ora_inizio, soluzione.durata, UtenteController::MINUTI_PER_ORA) %>	<br>
+						<%= link_nome_aula(soluzione.codificaaula) %>
+						</td>
+		<% end %>
+		<% end %>
+		<% prec=soluzione.corso.nome_corso_esteso %>
+<% end %>
+</table>
+
+<br><br><br>
+*<b>Avvisi</b><br>
+<% prec="" %>
+<% for s in @soluzioni %>
+	<% if   s.corso.visualizzazionecorso == nil or 				
+	(s.corso.visualizzazionecorso.per_nomecorso != "N" and 		
+	s.corso.visualizzazionecorso.per_nomecorso != "n") %>
+		<% if prec!=s.corso.nome_corso_esteso and s.corso.avvisi!=''%>
+			<br><b><%= s.corso.nome_corso_esteso %></b>: <%= s.corso.avvisi %>
+		<% end %>
+		<% prec=s.corso.nome_corso_esteso %>
+	<% end %>	
+<% end %>
